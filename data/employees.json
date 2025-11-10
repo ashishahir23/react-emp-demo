@@ -1,0 +1,203 @@
+[
+    {
+        "id": 1,
+        "fname": "Ashish",
+        "lname": "Ahir",
+        "email": "ashish@example.com",
+        "phone": "9876543210",
+        "dob": "2001-01-10",
+        "isdeleted": false,
+        "deptid": 3
+    },
+    {
+        "id": 2,
+        "fname": "Pankaj",
+        "lname": "Mistry",
+        "email": "pankj@example.com",
+        "phone": "9876543211",
+        "dob": "2001-01-11",
+        "isdeleted": false,
+        "deptid": 4
+    },
+    {
+        "id": 3,
+        "fname": "Mihir",
+        "lname": "Shah",
+        "email": "mihir@example.com",
+        "phone": "9876543212",
+        "dob": "2001-01-12",
+        "isdeleted": false,
+        "deptid": 5
+    },
+    {
+        "id": 4,
+        "fname": "Chetan",
+        "lname": "Lad",
+        "email": "chetan@example.com",
+        "phone": "9876543213",
+        "dob": "2001-01-13",
+        "isdeleted": false,
+        "deptid": 1
+    },
+    {
+        "id": 5,
+        "fname": "Tejas",
+        "lname": "Soneji",
+        "email": "tejas@example.com",
+        "phone": "9876543214",
+        "dob": "2001-01-14",
+        "isdeleted": false,
+        "deptid": 2
+    },
+    {
+        "id": 6,
+        "fname": "Mrunal",
+        "lname": "Desai",
+        "email": "mrunal@example.com",
+        "phone": "9876543215",
+        "dob": "2001-01-15",
+        "isdeleted": false,
+        "deptid": 3
+    },
+    {
+        "id": 7,
+        "fname": "Hitesh",
+        "lname": "Patel",
+        "email": "hitesh@example.com",
+        "phone": "9876543216",
+        "dob": "2001-01-16",
+        "isdeleted": false,
+        "deptid": 4        
+    },
+    {
+        "id": 8,
+        "fname": "Sumit",
+        "lname": "Patel",
+        "email": "sumit@example.com",
+        "phone": "9876543217",
+        "dob": "2001-01-17",
+        "isdeleted": false,
+        "deptid": 5        
+    },
+    {
+        "id": 9,
+        "fname": "Keyur",
+        "lname": "Patel",
+        "email": "keyur@example.com",
+        "phone": "9876543218",
+        "dob": "2001-01-18",
+        "isdeleted": false,
+        "deptid": 1                
+    },
+    {
+        "id": 10,
+        "fname": "Anish",
+        "lname": "Pocha",
+        "email": "anish@example.com",
+        "phone": "9876543219",
+        "dob": "2001-01-19",
+        "isdeleted": false,
+        "deptid": 2             
+    },
+    
+    {
+        "id": 11,
+        "fname": "Sourabh",
+        "lname": "Joshi",
+        "email": "sourabh@example.com",
+        "phone": "9876543220",
+        "dob": "2001-01-20",
+        "isdeleted": false,
+        "deptid": 3            
+    },
+    {
+        "id": 12,
+        "fname": "Mayur",
+        "lname": "Patel",
+        "email": "mayur@example.com",
+        "phone": "9876543221",
+        "dob": "2001-01-21",
+        "isdeleted": false,
+        "deptid": 4         
+    },
+    {
+        "id": 13,
+        "fname": "Kalpesh",
+        "lname": "Shah",
+        "email": "kalpesh@example.com",
+        "phone": "9876543222",
+        "dob": "2001-01-22",
+        "isdeleted": false,
+        "deptid": 5             
+    },
+    {
+        "id": 14,
+        "fname": "Chetan",
+        "lname": "Sharma",
+        "email": "chetans@example.com",
+        "phone": "9876543223",
+        "dob": "2001-01-23",
+        "isdeleted": false,
+        "deptid": 1            
+    },
+    {
+        "id": 15,
+        "fname": "Ronak",
+        "lname": "Patel",
+        "email": "ronak@example.com",
+        "phone": "9876543224",
+        "dob": "2001-01-24",
+        "isdeleted": false,
+        "deptid": 2 
+    },
+    {
+        "id": 16,
+        "fname": "Vivek",
+        "lname": "Bhatt",
+        "email": "vivek@example.com",
+        "phone": "9876543225",
+        "dob": "2001-01-25",
+        "isdeleted": false,
+        "deptid": 3  
+    },
+    {
+        "id": 17,
+        "fname": "Yogesh",
+        "lname": "Khatri",
+        "email": "yogesh@example.com",
+        "phone": "9876543226",
+        "dob": "2001-01-26",
+        "isdeleted": false,
+        "deptid": 4   
+    },
+    {
+        "id": 18,
+        "fname": "Jignesh",
+        "lname": "Patel",
+        "email": "jignesh@example.com",
+        "phone": "9876543227",
+        "dob": "2001-01-27",
+        "isdeleted": false,
+        "deptid": 5      
+    },
+    {
+        "id": 19,
+        "fname": "Parash",
+        "lname": "Mistry",
+        "email": "parash@example.com",
+        "phone": "9876543228",
+        "dob": "2001-01-28",
+        "isdeleted": false,
+        "deptid": 1          
+    },
+    {
+        "id": 20,
+        "fname": "Jay",
+        "lname": "Patel",
+        "email": "jay@example.com",
+        "phone": "9876543229",
+        "dob": "2001-01-29",
+        "isdeleted": false,
+        "deptid": 2   
+    }
+]
