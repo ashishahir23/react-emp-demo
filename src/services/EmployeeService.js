@@ -115,7 +115,7 @@ export async function loadEmployeesWithDept() {
     let employees = getStoredEmployees();
 
     if (employees.length === 0) {
-        const response = await fetch("/src/data/employees.json");
+        const response = await fetch(import.meta.env.BASE_URL + "/data/employees.json");
         employees = await response.json();
         saveEmployees(employees);
     }
@@ -123,7 +123,7 @@ export async function loadEmployeesWithDept() {
     let depts = getStoredDepatments();
 
     if (depts.length === 0) {
-        const response = await fetch("/src/data/department.json");
+        const response = await fetch(import.meta.env.BASE_URL + "/data/department.json");
         depts = await response.json();
         saveDepartments(depts);
     }

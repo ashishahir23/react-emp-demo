@@ -23,7 +23,7 @@ const AppRoutes = () => {
     return (
         <>
             <AuthProvider>
-                <BrowserRouter>
+                <BrowserRouter basename="/react-emp-demo">
                     <Routes>
                         {/* public route */}
                         <Route path="/Login" element={<LoginForm />} />

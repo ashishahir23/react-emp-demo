@@ -43,7 +43,7 @@ export async function loadDepartment() {
     let depts = getStoredDepatments();
 
     if (depts.length === 0) {
-        const response = await fetch("/src/data/department.json");
+        const response = await fetch(import.meta.env.BASE_URL + "/data/department.json");
         depts = await response.json();
         saveDepartments(depts);
     }
