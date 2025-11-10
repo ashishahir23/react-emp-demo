@@ -1,0 +1,130 @@
+.page-header {
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1976d2;  
+  color: white;  
+  width: 97%;
+  z-index: 1000
+}
+
+.nav-menu {
+  display: "flex";
+  gap: "20px";
+  position: "relative";
+  cursor: "pointer";
+}
+
+.nav-menuitem {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  padding: 6px 10px;
+}
+
+.nav-menuitem-active {
+  color: white;  
+  font-weight: bold;
+}
+
+.nav-sub-menuitem {
+  display: block;
+  padding: 8px 12px;
+  color: #1976d2;
+  background: white;
+  text-decoration: none;
+  border-radius: 4px,
+}
+
+.nav-sub-menuitem-active {
+  color: white;
+  background: #1976d2;
+}
+
+.mouse-hover-menuitem {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  background: white;
+  color: #1976d2;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  min-width: 160px;
+  z-index: 10;
+  padding: "4px 0";
+}
+
+.error-message {
+  color: red;
+}
+
+/* MUI Grid: Css start */
+.grid-header-cell {
+  background-color: #1976d2 !important;
+  font-weight: bold;
+  color: white;
+}
+
+.MuiDataGrid-footerContainer {
+  background-color: #1976d2 !important;
+  color: white;
+}
+
+.MuiDataGrid-row:nth-of-type(even) {
+  background-color: #f5f5f5;  
+}
+
+.MuiDataGrid-row:nth-of-type(odd) {
+  background-color: #ffffff;  
+}
+
+.MuiDataGrid-row:hover {
+  background-color: #e3f2fd !important;  
+}
+
+.MuiTablePagination-root {
+  color: white !important;
+}
+
+.MuiTablePagination-root button.MuiSvgIcon-root:not(button.Mui-disabled) {
+  color: white !important;
+}
+
+.MuiTablePagination-root svg[data-testid="ArrowDropDownIcon"] {
+  color: white !important;
+}
+
+.MuiDataGrid-columnHeaderCheckbox:not(span.MuiDataGrid-checkboxInput) {
+  background-color: #1976d2 !important;
+  color: white;
+}
+
+.css-2rjb2j-MuiButtonBase-root-MuiSwitchBase-root-MuiCheckbox-root.Mui-checked,
+.css-2rjb2j-MuiButtonBase-root-MuiSwitchBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+  color: darkgray !important;
+}
+
+.grid-loading-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20;
+}
+
+.MuiDataGrid-scrollbarFiller {
+  background-color: #1976d2 !important;
+}
+
+.mtp10 {
+  margin-top: 10;
+}
+
+.grid-container {
+  min-height: 80vh;
+  max-height: 90vw;
+  margin: auto;
+}
+
+/* MUI Grid: Css End */
