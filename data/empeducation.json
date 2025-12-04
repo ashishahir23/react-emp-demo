@@ -1,0 +1,30 @@
+[
+    {
+        "empid": 1,
+        "dgrid": 1,
+        "institute": "ABCD School",
+        "passingYear": "1990",
+        "percentage": "55.56"
+    },   
+    {
+        "empid": 1,
+        "dgrid": 2,
+        "institute": "ABCD School",
+        "passingYear": "1992",
+        "percentage": "58.56"
+    },   
+    {
+        "empid": 1,
+        "dgrid": 4,
+        "institute": "Degree Collage",
+        "passingYear": "1995",
+        "percentage": "60.01"
+    },   
+    {
+        "empid": 1,
+        "dgrid": 5,
+        "institute": "Master Collage",
+        "passingYear": "1997",
+        "percentage": "62.55"
+    }
+]
