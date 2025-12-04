@@ -1,0 +1,26 @@
+[
+    {
+        "dgrid": 1,
+        "degreename": "10th / SSC"
+    },
+    {
+        "dgrid": 2,
+        "degreename": "12th / HSC"
+    },
+    {
+        "dgrid": 3,
+        "degreename": "Diploma"
+    },
+    {
+        "dgrid": 4,
+        "degreename": "Bachelor's"
+    },
+    {
+        "dgrid": 5,
+        "degreename": "Master's"
+    },
+    {
+        "dgrid": 6,
+        "degreename": "PhD"
+    }    
+]

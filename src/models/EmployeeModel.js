@@ -9,7 +9,7 @@ export class EmployeeModel {
     phone = "",
     dob = "",
     isdeleted = false,
-    deptid = "",
+    deptid = 0,
     departmentname = "",
   } = {}) {
     this.id = id;

@@ -20,6 +20,9 @@ export const AuthProvider = ({ children }) => {
     localStorage.removeItem(StorageKeys.CURRENT_USER);
     localStorage.removeItem(StorageKeys.EMPLOYEES);
     localStorage.removeItem(StorageKeys.DEPARMENTS);
+    localStorage.removeItem(StorageKeys.EDUCATION);
+    localStorage.removeItem(StorageKeys.DEGREE);
+    localStorage.removeItem(StorageKeys.EXPERIENCE);
   };
 
   return (

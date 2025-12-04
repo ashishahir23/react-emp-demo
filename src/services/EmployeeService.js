@@ -15,6 +15,7 @@ export function saveEmployee(employee) {
     employee.id = (employees.length > 0 ? Math.max(...employees.map(e => parseInt(e.id, 10))) : 0) + 1;
     employees.push(employee);
     localStorage.setItem(StorageKeys.EMPLOYEES, JSON.stringify(employees));
+    return employee.id;
 }
 
 export function updateEmployee(employee) {

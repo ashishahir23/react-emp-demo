@@ -1,0 +1,26 @@
+[
+    {
+        "empid": 1,
+        "expid": 1,
+        "companyName": "ABC Ltd.",
+        "designation":"Sr. Engineer",
+        "startDate": "2000-01-01",
+        "endDate": "2003-01-01"
+    },   
+    {
+        "empid": 1,
+        "expid": 2,
+        "companyName": "PQRS Pvt Ltd.",
+        "designation":"Engineer",
+        "startDate": "2003-01-02",
+        "endDate": "2006-01-02"
+    },   
+    {
+        "empid": 1,
+        "expid": 3,
+        "companyName": "XYZ Ltd",
+        "designation":"Asc. Engineer",
+        "startDate": "2006-01-03",
+        "endDate": "2010-01-03"
+    } 
+]
