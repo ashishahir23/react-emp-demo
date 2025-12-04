@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
+import { HashRouter, Routes, Route, Outlet } from "react-router-dom";
 import { AuthProvider } from "../context/AuthContext";
 import ProtectedRoute from "../components/ProtectedRoute";
 import Header from "../components/Header";
@@ -22,8 +22,8 @@ const AppRoutes = () => {
 
     return (
         <>
-            <AuthProvider>
-                <BrowserRouter basename="/react-emp-demo">
+            <AuthProvider>                
+                <HashRouter>
                     <Routes>
                         {/* public route */}
                         <Route path="/Login" element={<LoginForm />} />
@@ -42,8 +42,8 @@ const AppRoutes = () => {
 
                         {/* fallback: redirect any unknown route */}
                         <Route path="*" element={<LoginForm />} />
-                    </Routes>
-                </BrowserRouter>
+                    </Routes>                
+                </HashRouter>
             </AuthProvider>
         </>
     );
